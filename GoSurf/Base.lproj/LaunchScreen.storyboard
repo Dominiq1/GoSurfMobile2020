@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="splashController" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="zUu-TB-NPs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gosurf" translatesAutoresizingMaskIntoConstraints="NO" id="ogz-Zf-BOH">
+                                <rect key="frame" x="100.5" y="401" width="213" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="0ci-75-PdL"/>
+                                    <constraint firstAttribute="height" constant="94" id="Jqf-xM-MyF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zUu-TB-NPs" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="Ku3-zl-c1z"/>
+                            <constraint firstItem="zUu-TB-NPs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TAJ-CB-U1e"/>
+                            <constraint firstItem="zUu-TB-NPs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="V3n-qS-dHK"/>
+                            <constraint firstItem="ogz-Zf-BOH" firstAttribute="centerX" secondItem="zUu-TB-NPs" secondAttribute="centerX" id="V7T-D1-h4K"/>
+                            <constraint firstItem="ogz-Zf-BOH" firstAttribute="centerY" secondItem="zUu-TB-NPs" secondAttribute="centerY" id="tjk-yd-46w"/>
+                            <constraint firstItem="zUu-TB-NPs" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ufB-Ta-J9B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1042" height="2256"/>
+        <image name="gosurf" width="902.5" height="228"/>
+    </resources>
+</document>

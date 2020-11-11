@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "surf instructor 25 by 25 copy.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "surf instructor icon 50 by 50 copy.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
